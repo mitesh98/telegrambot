@@ -17,7 +17,7 @@ results=soup.find_all('div',attrs={'class':'grid-content'})
 first_result=results[0]
 link=first_result.find('a')['href']
 heading=first_result.find('a').text
-web="https://api.telegram.org/bot667414506:AAFAPog5dCKDYEMKlQrP2oRFVSFYTyDVeMs/"
+web="https://api.telegram.org/bot***********************************/"
 web1=web+"sendMessage?chat_id=349041165&text="+str(heading)+str(link)
 
 
